@@ -10,7 +10,7 @@ class ExamplePage3 extends StatefulWidget {
 }
 
 class ExamplePage3State extends State<ExamplePage3> {
-  StreamController<String> _controller = StreamController<String>();
+  StreamController<String> _controller;
 
   @override
   void initState() {

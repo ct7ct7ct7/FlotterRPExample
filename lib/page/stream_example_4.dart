@@ -27,7 +27,7 @@ class ExamplePage4State extends State<ExamplePage4> {
   @override
   Widget build(BuildContext context) {
     var st = StreamTransformer<String, String>.fromHandlers(handleData: (data, sink){
-      sink.add('Transformer:$data');
+      sink.add('ABC : $data');
     });
 
     return MaterialApp(
